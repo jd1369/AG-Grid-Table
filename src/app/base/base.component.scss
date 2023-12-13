@@ -1,0 +1,22 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-column {
+  display: none;
+  width: 50px; /* Set the width as per your requirement */
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
+
+.ag-header-cell {
+  cursor: pointer;
+}
+
+.ag-header-cell-checkbox {
+  /* Style for the checkbox in the header cell */
+}
+
+/* Add any additional styles as needed */

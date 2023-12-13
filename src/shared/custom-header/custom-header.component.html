@@ -1,0 +1,8 @@
+<div class="header-toolbar" (click)="toggleOptions()">
+    
+    <div *ngIf="showOptions" class="options">
+      <div (click)="handleOptionClick(1)">Option 1</div>
+      <div (click)="handleOptionClick(2)">Option 2</div>
+      <div (click)="handleOptionClick(3)">Option 3</div>
+    </div>
+  </div>
