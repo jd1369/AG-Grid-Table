@@ -11,7 +11,7 @@ export class BaseService {
  private apiUrl="assets/data.json"
   constructor( private http : HttpClient) { }
 
-  /// Tried to access the given API but didnt work so doing it with JSON
+  /// Tried to access the given API but didnt work so doing it with JSON//////////////////
 
   getData(){
     return this.http.get(this.apiUrl)

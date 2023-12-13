@@ -20,7 +20,6 @@ export class CustomHeaderComponent implements OnInit {
   handleOptionClick(option: number) {
    
     console.log('Option ' + option + ' clicked');
-    // Add your logic here
   }
 
 }
